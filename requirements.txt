@@ -1,0 +1,17 @@
+graphviz==0.21
+libbash==0.1.14
+libdash==0.3.1
+packaging==26.2
+pash==0.16.6
+pash-annotations==0.2.4
+pexpect==4.9.0
+protobuf==7.34.1
+ptyprocess==0.7.0
+pydot==4.0.1
+pyparsing==3.3.2
+SCons==4.10.1
+setuptools==82.0.1
+sh-expand==0.2.6
+shasta==0.5
+six==1.17.0
+wheel==0.47.0
