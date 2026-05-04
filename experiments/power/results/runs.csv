@@ -1,0 +1,243 @@
+run_id,epoch,trial_index_in_epoch,timestamp_iso,benchmark,runtime,input_size,input_path,wall_clock_s,exit_code,energy_pkg_uj_total,energy_core_uj_total,avg_power_pkg_w,avg_power_core_w,user_cpu_s,sys_cpu_s,max_rss_kb,num_rapl_samples,governor,cpu_freq_pre_mhz,cpu_freq_post_mhz,cpu_temp_pre_c,cpu_temp_post_c,notes
+idle-pre-00--01-95be23,0,-1,2026-05-03T22:27:45-0400,idle_pre,idle,,,120.000560,0,1173786955,1831128,9.7815,0.0153,0,0,0,1201,schedutil,,,,,idle baseline
+idle-intertrial-01-000-7e31b4,1,0,2026-05-03T22:27:50-0400,idle_intertrial,idle,,,5.000510,0,46322830,69866,9.2636,0.0140,0,0,0,51,schedutil,,,,,idle baseline
+e01-t000-nfa-regex-pash_cold-1M-694c83,1,0,2026-05-03T22:27:52-0400,nfa-regex,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.716540,0,53039768,10998790,31.1976,6.4694,2.69,0.22,23032,18,schedutil,1550.0,3831.5,,,
+idle-intertrial-01-001-fcaf57,1,1,2026-05-03T22:27:57-0400,idle_intertrial,idle,,,5.000549,0,46247410,144463,9.2485,0.0289,0,0,0,51,schedutil,,,,,idle baseline
+e01-t001-wf-pash_cold-100M-928662,1,1,2026-05-03T22:28:09-0400,wf,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,11.605753,0,449441723,42962652,38.7446,3.7036,33.06,4.29,55096,117,schedutil,1550.0,1544.9,,,
+idle-intertrial-01-002-7423f7,1,2,2026-05-03T22:28:14-0400,idle_intertrial,idle,,,5.000201,0,46950590,82012,9.3898,0.0164,0,0,0,51,schedutil,,,,,idle baseline
+e01-t002-sort-sort-bash-1M-6f513e,1,2,2026-05-03T22:28:14-0400,sort-sort,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.163156,0,2298740,25008,22.9612,0.2498,0.15,0.01,5032,2,schedutil,1550.0,1550.0,,,
+idle-intertrial-01-003-3b5208,1,3,2026-05-03T22:28:19-0400,idle_intertrial,idle,,,5.000130,0,55181686,48169,11.0362,0.0096,0,0,0,51,schedutil,,,,,idle baseline
+e01-t003-sort-sort-pash_cold-100M-24abd8,1,3,2026-05-03T22:28:24-0400,sort-sort,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,5.293282,0,179310032,14769469,34.4819,2.8402,9.46,3.37,53060,53,schedutil,1550.0,1546.8,,,
+idle-intertrial-01-004-cbc149,1,4,2026-05-03T22:28:29-0400,idle_intertrial,idle,,,5.000342,0,51150415,258944,10.4378,0.0528,0,0,0,50,schedutil,,,,,idle baseline
+e01-t004-nfa-regex-bash-10M-45270d,1,4,2026-05-03T22:28:51-0400,nfa-regex,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,21.786460,0,509056362,146522788,23.4587,6.7522,21.73,0.08,3436,218,schedutil,1546.9,1550.0,,,
+idle-intertrial-01-005-62ccba,1,5,2026-05-03T22:28:56-0400,idle_intertrial,idle,,,5.000381,0,50636878,155570,10.3335,0.0317,0,0,0,50,schedutil,,,,,idle baseline
+e01-t005-spell-pash_cold-10M-1125e9,1,5,2026-05-03T22:28:58-0400,spell,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.233804,0,70837661,4490811,32.1969,2.0411,4.02,1.87,24024,23,schedutil,1550.0,1550.0,,,
+idle-intertrial-01-006-6d24ce,1,6,2026-05-03T22:29:03-0400,idle_intertrial,idle,,,5.000098,0,63385577,40174,12.6769,0.0080,0,0,0,51,schedutil,,,,,idle baseline
+e01-t006-nfa-regex-pash_cold-100M-44d332,1,6,2026-05-03T22:30:57-0400,nfa-regex,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,114.084688,0,3961077381,432436835,34.7463,3.7933,225.25,3.43,52980,1141,schedutil,1550.0,2511.4,,,
+idle-intertrial-01-007-a0c238,1,7,2026-05-03T22:31:02-0400,idle_intertrial,idle,,,5.000205,0,46514715,132790,9.3026,0.0266,0,0,0,51,schedutil,,,,,idle baseline
+e01-t007-spell-pash_cold-100M-292e4c,1,7,2026-05-03T22:31:15-0400,spell,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,12.094910,0,459668596,28066725,38.3054,2.3389,33.13,13.88,52884,121,schedutil,1550.0,1550.0,,,
+idle-intertrial-01-008-180c56,1,8,2026-05-03T22:31:20-0400,idle_intertrial,idle,,,5.000242,0,50375950,210408,10.0749,0.0421,0,0,0,51,schedutil,,,,,idle baseline
+e01-t008-nfa-regex-bash-100M-3e3dd4,1,8,2026-05-03T22:34:56-0400,nfa-regex,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,216.739936,0,5894316103,25152584,27.2003,0.1161,216.61,0.52,3412,2168,schedutil,1550.0,1374.9,,,
+idle-intertrial-01-009-0bddfe,1,9,2026-05-03T22:35:01-0400,idle_intertrial,idle,,,5.000313,0,47263180,172553,9.6445,0.0352,0,0,0,50,schedutil,,,,,idle baseline
+e01-t009-nfa-regex-pash_cold-10M-2a8e35,1,9,2026-05-03T22:35:14-0400,nfa-regex,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,12.270165,0,410452452,43627535,33.6433,3.5760,22.87,0.48,22984,123,schedutil,1377.2,1374.7,,,
+idle-intertrial-01-010-0305a1,1,10,2026-05-03T22:35:19-0400,idle_intertrial,idle,,,5.000297,0,48739286,83645,9.7475,0.0167,0,0,0,51,schedutil,,,,,idle baseline
+e01-t010-wf-bash-10M-25d720,1,10,2026-05-03T22:35:22-0400,wf,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,3.015343,0,89134825,395915,29.7104,0.1320,3.29,0.09,10424,31,schedutil,1375.5,1374.9,,,
+idle-intertrial-01-011-e70855,1,11,2026-05-03T22:35:27-0400,idle_intertrial,idle,,,5.000217,0,47166872,79525,9.4331,0.0159,0,0,0,51,schedutil,,,,,idle baseline
+e01-t011-nfa-regex-bash-1M-bad1bb,1,11,2026-05-03T22:35:29-0400,nfa-regex,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,2.189962,0,47296062,151008,22.5208,0.0719,2.17,0.01,3500,22,schedutil,1376.8,1550.0,,,
+idle-intertrial-01-012-e62b7d,1,12,2026-05-03T22:35:34-0400,idle_intertrial,idle,,,5.000369,0,46122005,72369,9.4117,0.0148,0,0,0,50,schedutil,,,,,idle baseline
+e01-t012-sort-sort-pash_cold-1M-74e8ef,1,12,2026-05-03T22:35:35-0400,sort-sort,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.775356,0,16683952,740684,23.8301,1.0579,0.61,0.33,23536,8,schedutil,1375.4,1636.7,,,
+idle-intertrial-01-013-53b4ac,1,13,2026-05-03T22:35:40-0400,idle_intertrial,idle,,,5.000582,0,52837843,76702,10.5665,0.0153,0,0,0,51,schedutil,,,,,idle baseline
+e01-t013-spell-bash-1M-f4e260,1,13,2026-05-03T22:35:40-0400,spell,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.563589,0,13228564,384364,26.4523,0.7686,0.62,0.08,10532,6,schedutil,1376.8,1550.0,,,
+idle-intertrial-01-014-79c03a,1,14,2026-05-03T22:35:45-0400,idle_intertrial,idle,,,5.000369,0,57092812,110102,11.6504,0.0225,0,0,0,50,schedutil,,,,,idle baseline
+e01-t014-spell-pash_cold-1M-e013c2,1,14,2026-05-03T22:35:47-0400,spell,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.242538,0,29651650,2034197,24.7072,1.6950,1.21,0.45,23972,13,schedutil,1375.3,1543.0,,,
+idle-intertrial-01-015-485999,1,15,2026-05-03T22:35:52-0400,idle_intertrial,idle,,,5.000357,0,47687933,114938,9.7312,0.0235,0,0,0,50,schedutil,,,,,idle baseline
+e01-t015-wf-bash-100M-d030f5,1,15,2026-05-03T22:36:23-0400,wf,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,30.957252,0,869569135,8876937,28.1413,0.2873,33.41,0.96,10532,310,schedutil,1376.9,1550.0,,,
+idle-intertrial-01-016-3fe6c2,1,16,2026-05-03T22:36:28-0400,idle_intertrial,idle,,,5.000175,0,50286020,88801,10.0569,0.0178,0,0,0,51,schedutil,,,,,idle baseline
+e01-t016-sort-sort-pash_cold-10M-f7de91,1,16,2026-05-03T22:36:29-0400,sort-sort,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,1.425545,0,38553853,2468592,27.5355,1.7631,1.58,0.63,23632,15,schedutil,1546.9,1550.0,,,
+idle-intertrial-01-017-f2f1be,1,17,2026-05-03T22:36:34-0400,idle_intertrial,idle,,,5.000603,0,47856809,91380,9.5704,0.0183,0,0,0,51,schedutil,,,,,idle baseline
+e01-t017-wf-pash_cold-10M-8c4e1b,1,17,2026-05-03T22:36:36-0400,wf,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.097095,0,65548078,1706195,32.7720,0.8530,3.83,0.7,23772,21,schedutil,1550.0,1550.0,,,
+idle-intertrial-01-018-a39460,1,18,2026-05-03T22:36:41-0400,idle_intertrial,idle,,,5.000069,0,62683434,27953,12.5365,0.0056,0,0,0,51,schedutil,,,,,idle baseline
+e01-t018-sort-sort-bash-10M-ffaf65,1,18,2026-05-03T22:36:42-0400,sort-sort,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,0.898206,0,23458382,83202,29.3129,0.1040,0.84,0.08,14584,9,schedutil,1550.0,1550.0,,,
+idle-intertrial-01-019-d36991,1,19,2026-05-03T22:36:47-0400,idle_intertrial,idle,,,5.000373,0,53933323,45622,10.7859,0.0091,0,0,0,51,schedutil,,,,,idle baseline
+e01-t019-spell-bash-10M-f192c0,1,19,2026-05-03T22:36:50-0400,spell,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.724272,0,84955399,2207131,31.4638,0.8174,3.33,0.87,10484,28,schedutil,1550.0,1426.2,,,
+idle-intertrial-01-020-4a7e88,1,20,2026-05-03T22:36:55-0400,idle_intertrial,idle,,,5.000371,0,46803854,118097,9.5515,0.0241,0,0,0,50,schedutil,,,,,idle baseline
+e01-t020-spell-bash-100M-07fd6d,1,20,2026-05-03T22:37:22-0400,spell,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,27.365492,0,795619301,76114854,29.1435,2.7881,31.59,10.68,10524,274,schedutil,1375.8,3917.5,,,
+idle-intertrial-01-021-332d16,1,21,2026-05-03T22:37:27-0400,idle_intertrial,idle,,,5.000353,0,49240083,130471,10.0480,0.0266,0,0,0,50,schedutil,,,,,idle baseline
+e01-t021-wf-bash-1M-606d50,1,21,2026-05-03T22:37:28-0400,wf,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.360573,0,7878712,28212,26.2528,0.0940,0.37,0.03,10480,4,schedutil,1470.0,1315.6,,,
+idle-intertrial-01-022-524ef3,1,22,2026-05-03T22:37:33-0400,idle_intertrial,idle,,,5.000324,0,55851970,67501,11.3972,0.0138,0,0,0,50,schedutil,,,,,idle baseline
+e01-t022-wf-pash_cold-1M-5cd8d0,1,22,2026-05-03T22:37:34-0400,wf,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.994333,0,23632796,774969,26.2554,0.8610,0.97,0.37,23776,10,schedutil,1377.0,1550.0,,,
+idle-intertrial-01-023-85c017,1,23,2026-05-03T22:37:39-0400,idle_intertrial,idle,,,5.000337,0,55827756,126900,11.1653,0.0254,0,0,0,51,schedutil,,,,,idle baseline
+e01-t023-sort-sort-bash-100M-3ba22e,1,23,2026-05-03T22:37:48-0400,sort-sort,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,8.953778,0,213129618,49828111,23.9464,5.5985,7.93,1.3,14576,90,schedutil,1546.9,1550.0,,,
+idle-intertrial-02-000-e1e535,2,0,2026-05-03T22:37:53-0400,idle_intertrial,idle,,,5.000523,0,45473463,41624,9.0938,0.0083,0,0,0,51,schedutil,,,,,idle baseline
+e02-t000-spell-pash_cold-1M-7d4fae,2,0,2026-05-03T22:37:54-0400,spell,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.232787,0,30792216,917723,25.6582,0.7647,1.16,0.55,24036,13,schedutil,1550.0,1375.0,,,
+idle-intertrial-02-001-cdc28b,2,1,2026-05-03T22:37:59-0400,idle_intertrial,idle,,,5.000089,0,47329003,143837,9.6580,0.0294,0,0,0,50,schedutil,,,,,idle baseline
+e02-t001-sort-sort-pash_cold-100M-fde95b,2,1,2026-05-03T22:38:04-0400,sort-sort,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,5.248855,0,172753349,5458153,33.2211,1.0496,9.36,3.34,53080,53,schedutil,1376.3,1550.0,,,
+idle-intertrial-02-002-e1d9d5,2,2,2026-05-03T22:38:09-0400,idle_intertrial,idle,,,5.000350,0,51529058,129403,10.5158,0.0264,0,0,0,50,schedutil,,,,,idle baseline
+e02-t002-spell-bash-10M-f41df3,2,2,2026-05-03T22:38:12-0400,spell,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.864119,0,85348568,12407103,30.4804,4.4309,3.37,1.09,9116,29,schedutil,1435.0,1550.0,,,
+idle-intertrial-02-003-274ef5,2,3,2026-05-03T22:38:17-0400,idle_intertrial,idle,,,5.000600,0,49352520,190191,9.8695,0.0380,0,0,0,51,schedutil,,,,,idle baseline
+e02-t003-wf-pash_cold-1M-0311b5,2,3,2026-05-03T22:38:18-0400,wf,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.928511,0,22915533,1062995,25.4585,1.1810,0.97,0.29,23800,10,schedutil,1546.9,1550.0,,,
+idle-intertrial-02-004-1f5cb9,2,4,2026-05-03T22:38:23-0400,idle_intertrial,idle,,,5.000575,0,47968741,74932,9.5928,0.0150,0,0,0,51,schedutil,,,,,idle baseline
+e02-t004-sort-sort-pash_cold-1M-903a8a,2,4,2026-05-03T22:38:24-0400,sort-sort,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.769336,0,17160383,1371084,24.5041,1.9578,0.67,0.3,23488,8,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-005-8e1e61,2,5,2026-05-03T22:38:29-0400,idle_intertrial,idle,,,5.000544,0,48936327,111902,9.7863,0.0224,0,0,0,51,schedutil,,,,,idle baseline
+e02-t005-wf-bash-100M-356d6f,2,5,2026-05-03T22:39:01-0400,wf,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,31.616687,0,835438897,80348918,26.4379,2.5427,33.91,1.1,10488,317,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-006-12449d,2,6,2026-05-03T22:39:06-0400,idle_intertrial,idle,,,5.000536,0,47754443,199407,9.5499,0.0399,0,0,0,51,schedutil,,,,,idle baseline
+e02-t006-nfa-regex-pash_cold-10M-615d1b,2,6,2026-05-03T22:39:18-0400,nfa-regex,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,12.361841,0,411074826,45262735,33.4204,3.6799,22.88,0.57,22984,124,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-007-529db6,2,7,2026-05-03T22:39:23-0400,idle_intertrial,idle,,,5.000567,0,44570907,283997,8.9132,0.0568,0,0,0,51,schedutil,,,,,idle baseline
+e02-t007-nfa-regex-pash_cold-100M-114441,2,7,2026-05-03T22:41:18-0400,nfa-regex,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,114.452222,0,3971210448,580550207,34.7133,5.0747,225.88,3.34,52908,1145,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-008-b4fcce,2,8,2026-05-03T22:41:23-0400,idle_intertrial,idle,,,5.000189,0,47500992,83141,9.4999,0.0166,0,0,0,51,schedutil,,,,,idle baseline
+e02-t008-sort-sort-bash-10M-897c22,2,8,2026-05-03T22:41:24-0400,sort-sort,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,0.920421,0,24519103,147926,27.2166,0.1642,0.87,0.08,14528,10,schedutil,1550.0,1374.5,,,
+idle-intertrial-02-009-5d02cc,2,9,2026-05-03T22:41:29-0400,idle_intertrial,idle,,,5.000224,0,46864200,95790,9.3726,0.0192,0,0,0,51,schedutil,,,,,idle baseline
+e02-t009-spell-pash_cold-100M-129897,2,9,2026-05-03T22:41:41-0400,spell,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,12.123819,0,458717656,19550243,37.9101,1.6157,32.9,14.12,53080,122,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-010-5405ab,2,10,2026-05-03T22:41:46-0400,idle_intertrial,idle,,,5.000369,0,44923702,44661,9.1672,0.0091,0,0,0,50,schedutil,,,,,idle baseline
+e02-t010-nfa-regex-pash_cold-1M-21ed84,2,10,2026-05-03T22:41:48-0400,nfa-regex,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.741517,0,52894802,428963,31.1124,0.2523,2.71,0.24,22980,18,schedutil,1550.0,1635.1,,,
+idle-intertrial-02-011-15a922,2,11,2026-05-03T22:41:53-0400,idle_intertrial,idle,,,5.000342,0,47372382,96263,9.6668,0.0196,0,0,0,50,schedutil,,,,,idle baseline
+e02-t011-nfa-regex-bash-100M-4db227,2,11,2026-05-03T22:45:30-0400,nfa-regex,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,216.951988,0,6292358599,67523211,29.0104,0.3113,216.83,0.5,3524,2170,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-012-87807b,2,12,2026-05-03T22:45:35-0400,idle_intertrial,idle,,,5.000557,0,46432916,173071,9.2856,0.0346,0,0,0,51,schedutil,,,,,idle baseline
+e02-t012-wf-bash-10M-9250d4,2,12,2026-05-03T22:45:38-0400,wf,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,3.040337,0,84666535,591735,28.2212,0.1972,3.3,0.1,10444,31,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-013-430515,2,13,2026-05-03T22:45:43-0400,idle_intertrial,idle,,,5.000163,0,47898981,206273,9.5796,0.0413,0,0,0,51,schedutil,,,,,idle baseline
+e02-t013-sort-sort-bash-100M-d9e96a,2,13,2026-05-03T22:45:52-0400,sort-sort,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,9.052267,0,207150466,25483896,23.0163,2.8315,8.11,1.05,14576,91,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-014-28bd72,2,14,2026-05-03T22:45:57-0400,idle_intertrial,idle,,,5.000329,0,45310432,164405,9.0618,0.0329,0,0,0,51,schedutil,,,,,idle baseline
+e02-t014-nfa-regex-bash-1M-8cef2f,2,14,2026-05-03T22:45:59-0400,nfa-regex,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,2.198162,0,59250324,563340,28.2129,0.2682,2.17,0.02,3420,22,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-015-87cd10,2,15,2026-05-03T22:46:04-0400,idle_intertrial,idle,,,5.000093,0,45560708,179526,9.2972,0.0366,0,0,0,50,schedutil,,,,,idle baseline
+e02-t015-spell-bash-1M-852cd6,2,15,2026-05-03T22:46:05-0400,spell,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.574151,0,13618086,1841809,27.2223,3.6817,0.61,0.1,10516,6,schedutil,1550.0,2800.0,,,
+idle-intertrial-02-016-7aa10f,2,16,2026-05-03T22:46:10-0400,idle_intertrial,idle,,,5.000186,0,49848298,199498,9.9694,0.0399,0,0,0,51,schedutil,,,,,idle baseline
+e02-t016-wf-pash_cold-10M-862706,2,16,2026-05-03T22:46:12-0400,wf,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.141799,0,66573736,5983273,31.6999,2.8490,3.86,0.75,23804,22,schedutil,1546.9,1635.9,,,
+idle-intertrial-02-017-1ef564,2,17,2026-05-03T22:46:17-0400,idle_intertrial,idle,,,5.000552,0,50343314,168586,10.0677,0.0337,0,0,0,51,schedutil,,,,,idle baseline
+e02-t017-sort-sort-pash_cold-10M-b089b0,2,17,2026-05-03T22:46:18-0400,sort-sort,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,1.427746,0,38508339,2406324,27.5033,1.7186,1.7,0.65,23512,15,schedutil,1550.0,3962.6,,,
+idle-intertrial-02-018-af50d0,2,18,2026-05-03T22:46:23-0400,idle_intertrial,idle,,,5.000547,0,47231734,54975,9.4454,0.0110,0,0,0,51,schedutil,,,,,idle baseline
+e02-t018-spell-pash_cold-10M-3609fd,2,18,2026-05-03T22:46:26-0400,spell,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.298806,0,68735322,2691084,31.2417,1.2232,4.05,1.79,24052,23,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-019-7776ec,2,19,2026-05-03T22:46:31-0400,idle_intertrial,idle,,,5.000233,0,50534496,134438,10.1066,0.0269,0,0,0,51,schedutil,,,,,idle baseline
+e02-t019-nfa-regex-bash-10M-d05203,2,19,2026-05-03T22:46:52-0400,nfa-regex,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,21.762309,0,482866798,1494552,22.2518,0.0689,21.73,0.06,3432,218,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-020-f59de3,2,20,2026-05-03T22:46:57-0400,idle_intertrial,idle,,,5.000227,0,46315216,73834,9.2627,0.0148,0,0,0,51,schedutil,,,,,idle baseline
+e02-t020-wf-pash_cold-100M-012a68,2,20,2026-05-03T22:47:09-0400,wf,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,11.638859,0,462876499,28740274,39.9028,2.4776,33.54,4.24,53076,117,schedutil,1550.0,1270.1,,,
+idle-intertrial-02-021-a1c074,2,21,2026-05-03T22:47:14-0400,idle_intertrial,idle,,,5.000517,0,56347885,170615,11.2685,0.0341,0,0,0,51,schedutil,,,,,idle baseline
+e02-t021-wf-bash-1M-0cc0ce,2,21,2026-05-03T22:47:14-0400,wf,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.359857,0,8007581,36878,26.6690,0.1228,0.36,0.03,10548,4,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-022-18938d,2,22,2026-05-03T22:47:20-0400,idle_intertrial,idle,,,5.000118,0,66491678,495122,13.2980,0.0990,0,0,0,51,schedutil,,,,,idle baseline
+e02-t022-spell-bash-100M-ddac30,2,22,2026-05-03T22:47:46-0400,spell,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,26.896842,0,806157697,61781778,30.0804,2.3053,31.16,10.14,10548,269,schedutil,1550.0,1550.0,,,
+idle-intertrial-02-023-735a8d,2,23,2026-05-03T22:47:51-0400,idle_intertrial,idle,,,5.000542,0,58928060,72842,11.7844,0.0146,0,0,0,51,schedutil,,,,,idle baseline
+e02-t023-sort-sort-bash-1M-4fb010,2,23,2026-05-03T22:47:52-0400,sort-sort,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.121037,0,2511939,24184,25.0938,0.2416,0.11,0.01,4992,2,schedutil,1550.0,1375.1,,,
+idle-intertrial-03-000-70a6a9,3,0,2026-05-03T22:47:57-0400,idle_intertrial,idle,,,5.000176,0,61528419,111002,12.3053,0.0222,0,0,0,51,schedutil,,,,,idle baseline
+e03-t000-wf-bash-1M-11941a,3,0,2026-05-03T22:47:57-0400,wf,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.336927,0,8654627,146141,28.8378,0.4870,0.36,0.01,9116,4,schedutil,1503.1,1636.7,,,
+idle-intertrial-03-001-13fff2,3,1,2026-05-03T22:48:02-0400,idle_intertrial,idle,,,5.000188,0,62685570,533176,12.5368,0.1066,0,0,0,51,schedutil,,,,,idle baseline
+e03-t001-sort-sort-bash-1M-e75cd2,3,1,2026-05-03T22:48:02-0400,sort-sort,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.126582,0,2054002,426064,20.5160,4.2557,0.11,0.01,5032,2,schedutil,1550.0,4098.9,,,
+idle-intertrial-03-002-ecdcc5,3,2,2026-05-03T22:48:07-0400,idle_intertrial,idle,,,5.000226,0,46498450,252017,9.2994,0.0504,0,0,0,51,schedutil,,,,,idle baseline
+e03-t002-wf-pash_cold-100M-30800e,3,2,2026-05-03T22:48:19-0400,wf,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,11.544348,0,464144744,77227009,40.3600,6.7153,33.71,4.11,53044,116,schedutil,1546.9,1550.0,,,
+idle-intertrial-03-003-8263bc,3,3,2026-05-03T22:48:24-0400,idle_intertrial,idle,,,5.000080,0,48927829,93974,9.9851,0.0192,0,0,0,50,schedutil,,,,,idle baseline
+e03-t003-spell-bash-100M-474925,3,3,2026-05-03T22:48:51-0400,spell,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,27.320205,0,811946871,15366453,29.7415,0.5629,31.49,10.25,10480,274,schedutil,1550.0,3341.5,,,
+idle-intertrial-03-004-e9c2ec,3,4,2026-05-03T22:48:56-0400,idle_intertrial,idle,,,5.000614,0,47305857,222415,9.4602,0.0445,0,0,0,51,schedutil,,,,,idle baseline
+e03-t004-spell-bash-10M-45b156,3,4,2026-05-03T22:48:59-0400,spell,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.710777,0,80361735,4789944,29.7626,1.7740,3.17,1.06,10448,28,schedutil,1550.0,4091.8,,,
+idle-intertrial-03-005-17579c,3,5,2026-05-03T22:49:04-0400,idle_intertrial,idle,,,5.000166,0,55445497,166618,11.0888,0.0333,0,0,0,51,schedutil,,,,,idle baseline
+e03-t005-sort-sort-bash-100M-0f014a,3,5,2026-05-03T22:49:13-0400,sort-sort,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,8.865221,0,225620946,1663259,25.6384,0.1890,8.11,1.05,14620,89,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-006-210713,3,6,2026-05-03T22:49:18-0400,idle_intertrial,idle,,,5.000579,0,51486168,67608,10.2962,0.0135,0,0,0,51,schedutil,,,,,idle baseline
+e03-t006-nfa-regex-pash_cold-10M-1d887b,3,6,2026-05-03T22:49:30-0400,nfa-regex,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,12.257055,0,398388226,72329557,32.6540,5.9285,22.79,0.43,22984,123,schedutil,1550.0,3757.8,,,
+idle-intertrial-03-007-0364e9,3,7,2026-05-03T22:49:35-0400,idle_intertrial,idle,,,5.000546,0,53812021,104196,10.7613,0.0208,0,0,0,51,schedutil,,,,,idle baseline
+e03-t007-sort-sort-pash_cold-1M-df1381,3,7,2026-05-03T22:49:36-0400,sort-sort,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.780800,0,16590237,660504,23.6969,0.9434,0.63,0.32,23492,8,schedutil,1550.0,1373.3,,,
+idle-intertrial-03-008-d561da,3,8,2026-05-03T22:49:41-0400,idle_intertrial,idle,,,5.000336,0,57349802,110072,11.7027,0.0225,0,0,0,50,schedutil,,,,,idle baseline
+e03-t008-nfa-regex-bash-100M-066a87,3,8,2026-05-03T22:53:18-0400,nfa-regex,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,216.720704,0,6228962036,28569003,28.7446,0.1318,216.59,0.5,3400,2168,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-009-eb6243,3,9,2026-05-03T22:53:23-0400,idle_intertrial,idle,,,5.000415,0,51497535,82179,10.2987,0.0164,0,0,0,51,schedutil,,,,,idle baseline
+e03-t009-nfa-regex-bash-10M-fc4d16,3,9,2026-05-03T22:53:45-0400,nfa-regex,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,21.781331,0,499202028,192954453,23.0046,8.8919,21.73,0.08,3436,218,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-010-08acdf,3,10,2026-05-03T22:53:50-0400,idle_intertrial,idle,,,5.000563,0,47115880,194402,9.4222,0.0389,0,0,0,51,schedutil,,,,,idle baseline
+e03-t010-nfa-regex-pash_cold-1M-f49333,3,10,2026-05-03T22:53:51-0400,nfa-regex,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.712144,0,53502116,1072195,31.4697,0.6307,2.69,0.22,22980,18,schedutil,1546.9,1550.0,,,
+idle-intertrial-03-011-9476e7,3,11,2026-05-03T22:53:56-0400,idle_intertrial,idle,,,5.000591,0,49951503,96187,9.9893,0.0192,0,0,0,51,schedutil,,,,,idle baseline
+e03-t011-wf-pash_cold-10M-03e14c,3,11,2026-05-03T22:53:58-0400,wf,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.138205,0,67924603,3430593,32.3437,1.6335,3.88,0.69,23804,22,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-012-49da5e,3,12,2026-05-03T22:54:03-0400,idle_intertrial,idle,,,5.000366,0,51593371,81721,10.5282,0.0167,0,0,0,50,schedutil,,,,,idle baseline
+e03-t012-sort-sort-pash_cold-100M-55e43e,3,12,2026-05-03T22:54:09-0400,sort-sort,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,5.267922,0,183058099,26776569,35.2028,5.1492,9.52,3.4,53068,53,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-013-63220f,3,13,2026-05-03T22:54:14-0400,idle_intertrial,idle,,,5.000190,0,47988180,145424,9.5974,0.0291,0,0,0,51,schedutil,,,,,idle baseline
+e03-t013-wf-pash_cold-1M-172591,3,13,2026-05-03T22:54:15-0400,wf,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.981968,0,23137002,1172684,25.7043,1.3028,0.98,0.36,23780,10,schedutil,1550.0,1546.7,,,
+idle-intertrial-03-014-66a600,3,14,2026-05-03T22:54:20-0400,idle_intertrial,idle,,,5.000300,0,52115987,113367,10.4230,0.0227,0,0,0,51,schedutil,,,,,idle baseline
+e03-t014-spell-pash_cold-10M-beb8d0,3,14,2026-05-03T22:54:22-0400,spell,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.116277,0,67549516,1726061,32.1644,0.8219,3.94,1.63,24024,22,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-015-16659c,3,15,2026-05-03T22:54:27-0400,idle_intertrial,idle,,,5.000362,0,48575185,55737,9.9123,0.0114,0,0,0,50,schedutil,,,,,idle baseline
+e03-t015-wf-bash-10M-38a0d8,3,15,2026-05-03T22:54:30-0400,wf,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.961915,0,85366329,354947,29.4354,0.1224,3.17,0.12,10504,30,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-016-73e5ff,3,16,2026-05-03T22:54:35-0400,idle_intertrial,idle,,,5.000554,0,48509607,74642,9.7009,0.0149,0,0,0,51,schedutil,,,,,idle baseline
+e03-t016-sort-sort-pash_cold-10M-a3fb83,3,16,2026-05-03T22:54:36-0400,sort-sort,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,1.368705,0,37054160,2904025,28.5012,2.2337,1.58,0.63,23500,14,schedutil,1469.5,1629.8,,,
+idle-intertrial-03-017-afd507,3,17,2026-05-03T22:54:41-0400,idle_intertrial,idle,,,5.000232,0,49004942,133325,9.8007,0.0267,0,0,0,51,schedutil,,,,,idle baseline
+e03-t017-spell-bash-1M-7f5101,3,17,2026-05-03T22:54:42-0400,spell,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.568224,0,13869263,261385,27.7245,0.5225,0.6,0.1,10552,6,schedutil,1376.0,1375.0,,,
+idle-intertrial-03-018-30276c,3,18,2026-05-03T22:54:47-0400,idle_intertrial,idle,,,5.000558,0,50088764,139245,10.0167,0.0278,0,0,0,51,schedutil,,,,,idle baseline
+e03-t018-spell-pash_cold-100M-bca3d5,3,18,2026-05-03T22:54:59-0400,spell,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,12.055698,0,458821594,33369536,38.2347,2.7808,33.71,14.18,55104,121,schedutil,1546.9,1632.7,,,
+idle-intertrial-03-019-887bf0,3,19,2026-05-03T22:55:04-0400,idle_intertrial,idle,,,5.000272,0,47761919,64420,9.5521,0.0129,0,0,0,51,schedutil,,,,,idle baseline
+e03-t019-sort-sort-bash-10M-b4f9c9,3,19,2026-05-03T22:55:05-0400,sort-sort,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,0.890977,0,18434670,180396,23.0356,0.2254,0.8,0.12,14596,9,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-020-dc5fda,3,20,2026-05-03T22:55:10-0400,idle_intertrial,idle,,,5.000198,0,46393307,46674,9.2784,0.0093,0,0,0,51,schedutil,,,,,idle baseline
+e03-t020-spell-pash_cold-1M-1dfd5c,3,20,2026-05-03T22:55:11-0400,spell,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.271818,0,30795283,1038643,25.6605,0.8655,1.22,0.47,24096,13,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-021-48e411,3,21,2026-05-03T22:55:16-0400,idle_intertrial,idle,,,5.000384,0,50032736,83873,10.2097,0.0171,0,0,0,50,schedutil,,,,,idle baseline
+e03-t021-nfa-regex-pash_cold-100M-e1f905,3,21,2026-05-03T22:57:10-0400,nfa-regex,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,114.141479,0,3951754926,520834088,34.6341,4.5647,225.47,3.44,54872,1142,schedutil,1550.0,1550.0,,,
+idle-intertrial-03-022-033f4e,3,22,2026-05-03T22:57:15-0400,idle_intertrial,idle,,,5.000181,0,47959067,119104,9.5915,0.0238,0,0,0,51,schedutil,,,,,idle baseline
+e03-t022-wf-bash-100M-319c39,3,22,2026-05-03T22:57:46-0400,wf,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,30.524461,0,850702145,21952493,27.8918,0.7198,33.01,1.05,10480,306,schedutil,1550.0,4090.2,,,
+idle-intertrial-03-023-4f7521,3,23,2026-05-03T22:57:51-0400,idle_intertrial,idle,,,5.000253,0,49906782,219898,9.9810,0.0440,0,0,0,51,schedutil,,,,,idle baseline
+e03-t023-nfa-regex-bash-1M-310203,3,23,2026-05-03T22:57:53-0400,nfa-regex,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,2.228396,0,49049466,362286,22.2942,0.1647,2.22,0.0,3424,23,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-000-58c088,4,0,2026-05-03T22:57:58-0400,idle_intertrial,idle,,,5.000229,0,46813710,119104,9.3624,0.0238,0,0,0,51,schedutil,,,,,idle baseline
+e04-t000-nfa-regex-bash-1M-76942d,4,0,2026-05-03T22:58:01-0400,nfa-regex,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,2.224304,0,62918972,213734,28.5981,0.0971,2.21,0.01,3516,23,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-001-781643,4,1,2026-05-03T22:58:06-0400,idle_intertrial,idle,,,5.000546,0,47281643,134880,9.4554,0.0270,0,0,0,51,schedutil,,,,,idle baseline
+e04-t001-spell-pash_cold-100M-03b48a,4,1,2026-05-03T22:58:18-0400,spell,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,12.063455,0,458008083,64490713,38.1670,5.3742,33.44,13.8,52896,121,schedutil,1550.0,1372.5,,,
+idle-intertrial-04-002-c29679,4,2,2026-05-03T22:58:23-0400,idle_intertrial,idle,,,5.000556,0,48326511,74581,9.6643,0.0149,0,0,0,51,schedutil,,,,,idle baseline
+e04-t002-nfa-regex-bash-10M-ada1d6,4,2,2026-05-03T22:58:45-0400,nfa-regex,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,22.009284,0,515109561,914519,23.4140,0.0416,22.0,0.05,3476,221,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-003-2c274f,4,3,2026-05-03T22:58:50-0400,idle_intertrial,idle,,,5.000228,0,47324991,42585,9.4647,0.0085,0,0,0,51,schedutil,,,,,idle baseline
+e04-t003-spell-pash_cold-1M-58b886,4,3,2026-05-03T22:58:51-0400,spell,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.211352,0,29607767,1178528,24.6705,0.9820,1.2,0.43,24100,13,schedutil,1550.0,3262.4,,,
+idle-intertrial-04-004-0fbcb7,4,4,2026-05-03T22:58:56-0400,idle_intertrial,idle,,,5.000568,0,46000367,112970,9.1991,0.0226,0,0,0,51,schedutil,,,,,idle baseline
+e04-t004-sort-sort-bash-10M-f371bd,4,4,2026-05-03T22:58:57-0400,sort-sort,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,0.912319,0,24532881,98002,27.2552,0.1089,0.84,0.1,14516,10,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-005-c0419d,4,5,2026-05-03T22:59:02-0400,idle_intertrial,idle,,,5.000557,0,50146347,106776,10.0282,0.0214,0,0,0,51,schedutil,,,,,idle baseline
+e04-t005-nfa-regex-bash-100M-5d6b97,4,5,2026-05-03T23:02:39-0400,nfa-regex,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,217.492387,0,6253179290,23251147,28.7635,0.1070,217.42,0.46,3500,2175,schedutil,1546.9,1374.5,,,
+idle-intertrial-04-006-1f66e4,4,6,2026-05-03T23:02:45-0400,idle_intertrial,idle,,,5.000167,0,44574310,199865,8.9146,0.0400,0,0,0,51,schedutil,,,,,idle baseline
+e04-t006-wf-bash-10M-0b57ec,4,6,2026-05-03T23:02:47-0400,wf,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.844600,0,72861496,9135819,26.0210,3.2627,3.15,0.11,10492,29,schedutil,1376.0,1636.5,,,
+idle-intertrial-04-007-6a8b50,4,7,2026-05-03T23:02:52-0400,idle_intertrial,idle,,,5.000485,0,47403371,68539,9.4799,0.0137,0,0,0,51,schedutil,,,,,idle baseline
+e04-t007-wf-bash-1M-ca16b1,4,7,2026-05-03T23:02:53-0400,wf,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.361030,0,7881139,41121,26.2590,0.1370,0.38,0.01,10568,4,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-008-7e3646,4,8,2026-05-03T23:02:58-0400,idle_intertrial,idle,,,5.000551,0,47893519,50961,9.5777,0.0102,0,0,0,51,schedutil,,,,,idle baseline
+e04-t008-nfa-regex-pash_cold-1M-37dd0e,4,8,2026-05-03T23:03:00-0400,nfa-regex,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.720408,0,52014873,813954,30.5949,0.4788,2.75,0.19,22968,18,schedutil,1550.0,1372.6,,,
+idle-intertrial-04-009-5666b8,4,9,2026-05-03T23:03:05-0400,idle_intertrial,idle,,,5.000545,0,46488243,222919,9.2967,0.0446,0,0,0,51,schedutil,,,,,idle baseline
+e04-t009-wf-pash_cold-1M-b1684b,4,9,2026-05-03T23:03:06-0400,wf,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.997750,0,23718698,941327,26.3507,1.0458,1.01,0.31,23756,10,schedutil,1376.2,1505.6,,,
+idle-intertrial-04-010-8aa460,4,10,2026-05-03T23:03:11-0400,idle_intertrial,idle,,,5.000237,0,46846835,185797,9.3691,0.0372,0,0,0,51,schedutil,,,,,idle baseline
+e04-t010-sort-sort-pash_cold-10M-9919e2,4,10,2026-05-03T23:03:12-0400,sort-sort,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,1.326709,0,34352105,2668227,26.4225,2.0523,1.63,0.59,23508,14,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-011-79d8d9,4,11,2026-05-03T23:03:17-0400,idle_intertrial,idle,,,5.000292,0,48505273,89626,9.7008,0.0179,0,0,0,51,schedutil,,,,,idle baseline
+e04-t011-spell-pash_cold-10M-744906,4,11,2026-05-03T23:03:19-0400,spell,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.116211,0,68780958,2811362,32.7508,1.3387,3.93,1.63,24036,22,schedutil,1550.0,1614.8,,,
+idle-intertrial-04-012-702c07,4,12,2026-05-03T23:03:24-0400,idle_intertrial,idle,,,5.000594,0,48194086,120721,9.6378,0.0241,0,0,0,51,schedutil,,,,,idle baseline
+e04-t012-wf-pash_cold-10M-967858,4,12,2026-05-03T23:03:26-0400,wf,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.064423,0,65660636,2151378,32.8289,1.0756,3.86,0.69,23764,21,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-013-1cd723,4,13,2026-05-03T23:03:31-0400,idle_intertrial,idle,,,5.000127,0,62567535,195592,12.5133,0.0391,0,0,0,51,schedutil,,,,,idle baseline
+e04-t013-sort-sort-pash_cold-100M-b5b126,4,13,2026-05-03T23:03:37-0400,sort-sort,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,5.303770,0,182169931,13249376,34.3697,2.4997,9.46,3.37,54688,54,schedutil,1490.4,1550.0,,,
+idle-intertrial-04-014-81b8a3,4,14,2026-05-03T23:03:42-0400,idle_intertrial,idle,,,5.000188,0,46974591,38297,9.3947,0.0077,0,0,0,51,schedutil,,,,,idle baseline
+e04-t014-nfa-regex-pash_cold-10M-48d2fe,4,14,2026-05-03T23:03:54-0400,nfa-regex,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,12.164498,0,404980064,2312518,33.4691,0.1911,22.73,0.52,22916,122,schedutil,1550.0,1375.0,,,
+idle-intertrial-04-015-2f5b70,4,15,2026-05-03T23:03:59-0400,idle_intertrial,idle,,,5.000451,0,45469053,70309,9.0929,0.0141,0,0,0,51,schedutil,,,,,idle baseline
+e04-t015-sort-sort-bash-1M-e0dd2c,4,15,2026-05-03T23:03:59-0400,sort-sort,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.124235,0,2329653,13702,23.2730,0.1369,0.1,0.02,5020,2,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-016-806228,4,16,2026-05-03T23:04:04-0400,idle_intertrial,idle,,,5.000567,0,47783585,63245,9.5557,0.0126,0,0,0,51,schedutil,,,,,idle baseline
+e04-t016-spell-bash-10M-f1a8bf,4,16,2026-05-03T23:04:07-0400,spell,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.778219,0,80982109,2516120,29.9923,0.9319,3.35,0.92,10452,28,schedutil,1376.2,1550.0,,,
+idle-intertrial-04-017-905060,4,17,2026-05-03T23:04:12-0400,idle_intertrial,idle,,,5.000605,0,46648085,60116,9.3287,0.0120,0,0,0,51,schedutil,,,,,idle baseline
+e04-t017-nfa-regex-pash_cold-100M-00c0d6,4,17,2026-05-03T23:06:06-0400,nfa-regex,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,114.139234,0,3992737807,466428073,34.9933,4.0879,225.6,3.25,53044,1142,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-018-3f4ae0,4,18,2026-05-03T23:06:11-0400,idle_intertrial,idle,,,5.000578,0,47885494,208699,9.5761,0.0417,0,0,0,51,schedutil,,,,,idle baseline
+e04-t018-wf-pash_cold-100M-47b913,4,18,2026-05-03T23:06:23-0400,wf,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,11.793845,0,466891687,21457096,39.9049,1.8339,33.0,4.48,53076,118,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-019-919a7c,4,19,2026-05-03T23:06:28-0400,idle_intertrial,idle,,,5.000157,0,48961793,50794,9.7921,0.0102,0,0,0,51,schedutil,,,,,idle baseline
+e04-t019-wf-bash-100M-59916c,4,19,2026-05-03T23:06:59-0400,wf,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,31.005608,0,876165032,40610723,28.2633,1.3100,33.45,1.03,10548,311,schedutil,1550.0,2726.2,,,
+idle-intertrial-04-020-8ac6cf,4,20,2026-05-03T23:07:04-0400,idle_intertrial,idle,,,5.000563,0,52624705,166312,10.5239,0.0333,0,0,0,51,schedutil,,,,,idle baseline
+e04-t020-sort-sort-bash-100M-65abf5,4,20,2026-05-03T23:07:13-0400,sort-sort,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,8.720961,0,217549220,2228568,25.0053,0.2562,7.99,1.0,14568,88,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-021-6ed5dc,4,21,2026-05-03T23:07:18-0400,idle_intertrial,idle,,,5.000472,0,46223974,60193,9.2441,0.0120,0,0,0,51,schedutil,,,,,idle baseline
+e04-t021-spell-bash-100M-e1fa49,4,21,2026-05-03T23:07:45-0400,spell,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,27.220958,0,821660297,29940423,30.2080,1.1007,31.48,10.61,10488,273,schedutil,1550.0,3842.3,,,
+idle-intertrial-04-022-498505,4,22,2026-05-03T23:07:50-0400,idle_intertrial,idle,,,5.000548,0,50952977,197271,10.1896,0.0395,0,0,0,51,schedutil,,,,,idle baseline
+e04-t022-sort-sort-pash_cold-1M-f8f974,4,22,2026-05-03T23:07:51-0400,sort-sort,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.693828,0,14877481,508473,24.7916,0.8473,0.58,0.25,23572,7,schedutil,1550.0,1550.0,,,
+idle-intertrial-04-023-9ff5f3,4,23,2026-05-03T23:07:56-0400,idle_intertrial,idle,,,5.000223,0,48151410,44889,9.6300,0.0090,0,0,0,51,schedutil,,,,,idle baseline
+e04-t023-spell-bash-1M-6c0912,4,23,2026-05-03T23:07:56-0400,spell,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.574674,0,14151490,80150,28.2969,0.1603,0.61,0.11,10480,6,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-000-34897a,5,0,2026-05-03T23:08:01-0400,idle_intertrial,idle,,,5.000167,0,48685745,48490,9.7369,0.0097,0,0,0,51,schedutil,,,,,idle baseline
+e05-t000-spell-pash_cold-1M-6afab0,5,0,2026-05-03T23:08:02-0400,spell,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.157450,0,28351423,696238,25.7714,0.6329,1.06,0.46,24036,12,schedutil,1550.0,1636.5,,,
+idle-intertrial-05-001-bec44e,5,1,2026-05-03T23:08:07-0400,idle_intertrial,idle,,,5.000255,0,58647877,134377,11.7293,0.0269,0,0,0,51,schedutil,,,,,idle baseline
+e05-t001-spell-bash-10M-9f2c06,5,1,2026-05-03T23:08:10-0400,spell,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.739295,0,85151861,17199092,31.5364,6.3698,3.27,1.0,10456,28,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-002-b71062,5,2,2026-05-03T23:08:15-0400,idle_intertrial,idle,,,5.000185,0,47361488,43394,9.4720,0.0087,0,0,0,51,schedutil,,,,,idle baseline
+e05-t002-wf-bash-1M-620a7e,5,2,2026-05-03T23:08:16-0400,wf,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.342240,0,7784860,126763,25.9407,0.4224,0.36,0.01,10512,4,schedutil,1546.9,1550.0,,,
+idle-intertrial-05-003-a71826,5,3,2026-05-03T23:08:21-0400,idle_intertrial,idle,,,5.000341,0,50022392,68905,10.2084,0.0141,0,0,0,50,schedutil,,,,,idle baseline
+e05-t003-nfa-regex-bash-10M-4a61de,5,3,2026-05-03T23:08:42-0400,nfa-regex,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,21.856204,0,616446499,1533490,28.2772,0.0703,21.81,0.07,3456,219,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-004-4e46ba,5,4,2026-05-03T23:08:47-0400,idle_intertrial,idle,,,5.000226,0,48867392,52106,9.7731,0.0104,0,0,0,51,schedutil,,,,,idle baseline
+e05-t004-wf-pash_cold-100M-7b3447,5,4,2026-05-03T23:08:59-0400,wf,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,11.597500,0,461345374,32701816,40.1164,2.8436,33.33,4.26,53052,116,schedutil,1550.0,1348.7,,,
+idle-intertrial-05-005-ea17e1,5,5,2026-05-03T23:09:04-0400,idle_intertrial,idle,,,5.000318,0,45610938,150215,9.3074,0.0307,0,0,0,50,schedutil,,,,,idle baseline
+e05-t005-wf-bash-10M-45cc81,5,5,2026-05-03T23:09:07-0400,wf,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,3.048362,0,74418469,15337525,24.8055,5.1124,3.3,0.12,10564,31,schedutil,1376.5,4090.9,,,
+idle-intertrial-05-006-f8f1ad,5,6,2026-05-03T23:09:12-0400,idle_intertrial,idle,,,5.000364,0,45018622,165244,9.1872,0.0337,0,0,0,50,schedutil,,,,,idle baseline
+e05-t006-nfa-regex-pash_cold-100M-680892,5,6,2026-05-03T23:11:06-0400,nfa-regex,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,113.764665,0,3940251400,223486856,34.6548,1.9656,224.65,3.33,52888,1138,schedutil,1550.0,1298.3,,,
+idle-intertrial-05-007-294be3,5,7,2026-05-03T23:11:11-0400,idle_intertrial,idle,,,5.000586,0,45720368,79632,9.1432,0.0159,0,0,0,51,schedutil,,,,,idle baseline
+e05-t007-sort-sort-pash_cold-1M-ade3bd,5,7,2026-05-03T23:11:12-0400,sort-sort,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.735839,0,17262367,174536,24.6571,0.2493,0.63,0.27,23508,8,schedutil,1550.0,1635.8,,,
+idle-intertrial-05-008-e3fdf6,5,8,2026-05-03T23:11:17-0400,idle_intertrial,idle,,,5.000332,0,50235302,159843,10.0468,0.0320,0,0,0,51,schedutil,,,,,idle baseline
+e05-t008-sort-sort-bash-100M-861058,5,8,2026-05-03T23:11:26-0400,sort-sort,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,8.842668,0,260916713,1193405,29.6493,0.1356,8.03,1.1,14604,89,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-009-f2fbe7,5,9,2026-05-03T23:11:31-0400,idle_intertrial,idle,,,5.000343,0,48358125,129464,9.6710,0.0259,0,0,0,51,schedutil,,,,,idle baseline
+e05-t009-nfa-regex-pash_cold-10M-0a8614,5,9,2026-05-03T23:11:43-0400,nfa-regex,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,12.287130,0,412243803,3211717,33.7902,0.2633,22.79,0.52,22976,123,schedutil,1550.0,1373.3,,,
+idle-intertrial-05-010-a1f6ae,5,10,2026-05-03T23:11:48-0400,idle_intertrial,idle,,,5.000524,0,49072490,162314,9.8135,0.0325,0,0,0,51,schedutil,,,,,idle baseline
+e05-t010-sort-sort-pash_cold-10M-e08065,5,10,2026-05-03T23:11:49-0400,sort-sort,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,1.288661,0,33790001,1715594,28.1562,1.4296,1.54,0.6,23440,13,schedutil,1550.0,1597.1,,,
+idle-intertrial-05-011-14e9bf,5,11,2026-05-03T23:11:54-0400,idle_intertrial,idle,,,5.000574,0,48453625,203953,9.6897,0.0408,0,0,0,51,schedutil,,,,,idle baseline
+e05-t011-sort-sort-bash-10M-0d4fbc,5,11,2026-05-03T23:11:55-0400,sort-sort,bash,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,0.926175,0,21466709,4842386,23.8484,5.3796,0.86,0.09,14560,10,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-012-dc2348,5,12,2026-05-03T23:12:00-0400,idle_intertrial,idle,,,5.000227,0,45924199,79281,9.1846,0.0159,0,0,0,51,schedutil,,,,,idle baseline
+e05-t012-spell-pash_cold-100M-8e1bf3,5,12,2026-05-03T23:12:12-0400,spell,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,12.104052,0,453757967,27181395,37.5003,2.2464,33.7,13.97,52984,122,schedutil,1550.0,3680.2,,,
+idle-intertrial-05-013-1a0083,5,13,2026-05-03T23:12:17-0400,idle_intertrial,idle,,,5.000566,0,48999282,128015,9.7989,0.0256,0,0,0,51,schedutil,,,,,idle baseline
+e05-t013-wf-pash_cold-1M-f4de8f,5,13,2026-05-03T23:12:18-0400,wf,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.984219,0,23012650,597930,25.5660,0.6643,0.91,0.4,23804,10,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-014-6ba02e,5,14,2026-05-03T23:12:23-0400,idle_intertrial,idle,,,5.000528,0,47294078,65335,9.4579,0.0131,0,0,0,51,schedutil,,,,,idle baseline
+e05-t014-wf-bash-100M-3cd052,5,14,2026-05-03T23:12:55-0400,wf,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,31.754303,0,868782921,21546539,27.4063,0.6797,34.08,1.08,10488,318,schedutil,1550.0,4091.6,,,
+idle-intertrial-05-015-c1e717,5,15,2026-05-03T23:13:00-0400,idle_intertrial,idle,,,5.000606,0,47465197,199971,9.4921,0.0400,0,0,0,51,schedutil,,,,,idle baseline
+e05-t015-spell-bash-100M-f5806f,5,15,2026-05-03T23:13:27-0400,spell,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,26.555633,0,789544679,27593665,29.7940,1.0413,30.85,10.13,10432,266,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-016-6d7a7c,5,16,2026-05-03T23:13:32-0400,idle_intertrial,idle,,,5.000354,0,48839347,214345,9.9662,0.0437,0,0,0,50,schedutil,,,,,idle baseline
+e05-t016-wf-pash_cold-10M-5da878,5,16,2026-05-03T23:13:34-0400,wf,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.017934,0,67637692,1354178,33.8164,0.6770,3.78,0.71,23756,21,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-017-01b9d8,5,17,2026-05-03T23:13:39-0400,idle_intertrial,idle,,,5.000330,0,47110128,79845,9.6133,0.0163,0,0,0,50,schedutil,,,,,idle baseline
+e05-t017-nfa-regex-bash-100M-533b6d,5,17,2026-05-03T23:17:17-0400,nfa-regex,bash,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,217.733512,0,5079436232,23150810,23.3322,0.1063,217.6,0.49,3548,2178,schedutil,1550.0,1373.9,,,
+idle-intertrial-05-018-f79bcf,5,18,2026-05-03T23:17:22-0400,idle_intertrial,idle,,,5.000372,0,52941018,84682,10.8040,0.0173,0,0,0,50,schedutil,,,,,idle baseline
+e05-t018-nfa-regex-bash-1M-9ba5fd,5,18,2026-05-03T23:17:24-0400,nfa-regex,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,2.228344,0,61664856,138268,28.0281,0.0628,2.21,0.01,3516,23,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-019-7de943,5,19,2026-05-03T23:17:29-0400,idle_intertrial,idle,,,5.000097,0,62252045,133813,12.4502,0.0268,0,0,0,51,schedutil,,,,,idle baseline
+e05-t019-nfa-regex-pash_cold-1M-30f230,5,19,2026-05-03T23:17:31-0400,nfa-regex,pash_cold,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,1.716567,0,53920978,709848,31.7164,0.4175,2.7,0.22,23056,18,schedutil,1500.0,1550.0,,,
+idle-intertrial-05-020-77f14a,5,20,2026-05-03T23:17:36-0400,idle_intertrial,idle,,,5.000467,0,47134571,78762,9.6183,0.0161,0,0,0,50,schedutil,,,,,idle baseline
+e05-t020-sort-sort-pash_cold-100M-618d4c,5,20,2026-05-03T23:17:41-0400,sort-sort,pash_cold,100M,/home/aaronzp/dev/pash-exp/scripts/inputs/100M.txt,5.303876,0,177282839,36952312,33.4486,6.9719,9.55,3.24,52984,54,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-021-34b778,5,21,2026-05-03T23:17:46-0400,idle_intertrial,idle,,,5.000246,0,48158734,139016,9.6314,0.0278,0,0,0,51,schedutil,,,,,idle baseline
+e05-t021-spell-pash_cold-10M-1c260a,5,21,2026-05-03T23:17:48-0400,spell,pash_cold,10M,/home/aaronzp/dev/pash-exp/scripts/inputs/10M.txt,2.280130,0,71221796,8001112,32.3716,3.6367,4.05,1.7,24112,23,schedutil,1550.0,1550.0,,,
+idle-intertrial-05-022-b11564,5,22,2026-05-03T23:17:53-0400,idle_intertrial,idle,,,5.000121,0,58766843,185400,11.7531,0.0371,0,0,0,51,schedutil,,,,,idle baseline
+e05-t022-sort-sort-bash-1M-0e2af4,5,22,2026-05-03T23:17:54-0400,sort-sort,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.165299,0,1662725,17363,16.6073,0.1734,0.13,0.03,5032,2,schedutil,1377.2,2687.9,,,
+idle-intertrial-05-023-8e8553,5,23,2026-05-03T23:17:59-0400,idle_intertrial,idle,,,5.000254,0,49271622,56577,9.8540,0.0113,0,0,0,51,schedutil,,,,,idle baseline
+e05-t023-spell-bash-1M-fa473a,5,23,2026-05-03T23:17:59-0400,spell,bash,1M,/home/aaronzp/dev/pash-exp/scripts/inputs/1M.txt,0.562579,0,13062007,1886301,26.1117,3.7708,0.57,0.12,10492,6,schedutil,1376.2,3466.5,,,
+idle-post-00--01-699cb5,0,-1,2026-05-03T23:19:59-0400,idle_post,idle,,,120.000206,0,1098268872,1404499,9.1522,0.0117,0,0,0,1201,schedutil,,,,,idle baseline
