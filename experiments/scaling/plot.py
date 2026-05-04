@@ -57,8 +57,9 @@ def main(csv_path: Path, out_dir: Path):
     fig, ax = plt.subplots(figsize=(8, 6))
     for bench in benchmarks:
         sub_pash = pash[pash['benchmark'] == bench].sort_values('width')
-        ax.plot(sub_pash['width'], sub_pash['mean'], 'o-', label=f'{bench} (pash)')
+        line, = ax.plot(sub_pash['width'], sub_pash['mean'], 'o-', label=f'{bench} (pash)')
         ax.axhline(bash_times[bench], linestyle='--', alpha=0.5,
+                   color=line.get_color(),
                    label=f'{bench} (bash)')
     ax.set_xlabel('cores')
     ax.set_ylabel('wall clock (s)')
