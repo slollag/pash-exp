@@ -1,0 +1,23 @@
+{
+  "hostname": "moshe",
+  "kernel": "6.1.0-34-amd64",
+  "cpu_model": "processor\t: 0",
+  "governor": "schedutil",
+  "cpu_freq_mhz_at_start": 1550.0,
+  "rapl_domains": [
+    {
+      "name": "package-0",
+      "path": "/sys/class/powercap/intel-rapl/intel-rapl:0",
+      "max_energy_uj": 65532610987
+    },
+    {
+      "name": "core",
+      "path": "/sys/class/powercap/intel-rapl/intel-rapl:0/intel-rapl:0:0",
+      "max_energy_uj": 65532610987
+    }
+  ],
+  "pash_top": "/home/aaronzp/dev/pash-exp/.venv/lib/python3.12/site-packages/pash",
+  "have_gnu_time": true,
+  "harness_version": "1.0.0",
+  "started_at": "2026-05-03T22:25:45-0400"
+}
