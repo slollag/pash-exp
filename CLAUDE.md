@@ -23,7 +23,7 @@ CS1952Y course project evaluating [PaSh](https://github.com/binpash/pash), a she
 
 - **Hydra** (Brown CS cluster): 24-core Intel Xeon Gold 5220S nodes with SMT (48 logical cores), 256 GB RAM. Slurm for job scheduling. Connect via `ssh.cs.brown.edu` — Slurm commands run directly from there, no separate login node. Used by Sebastian and Dru for SMT and core-scaling experiments.
 - **gem5**: Originally considered, abandoned — 20-minute boot times, container/loop-device limitations, and dependency issues on dept. machines.
-- **Aaron's power experiment**: Running on a personal Arch Linux machine (SSH remote). No cluster needed since the experiment is purely sequential Bash vs. PaSh — no hardware simulation required. RAPL (Running Average Power Limit) reads energy from `/sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj`. May need `sudo chmod -R o+r /sys/class/powercap/intel-rapl/` or run as root to access it.
+- **Aaron's power experiment**: Running on a personal Debian GNU/Linux 12 (bookworm) machine (SSH remote). No cluster needed since the experiment is purely sequential Bash vs. PaSh — no hardware simulation required. RAPL (Running Average Power Limit) reads energy from `/sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj`. May need `sudo chmod -R o+r /sys/class/powercap/intel-rapl/` or run as root to access it.
 
 ### Power Experiment Plan (Aaron)
 
@@ -52,15 +52,26 @@ Key dependency: `pash` (the shell script parallelizer) and its ecosystem (`libda
 
 ## Running Scripts
 
+Always activate the venv first:
+
+```bash
+source .venv/bin/activate
+```
+
 Each oneliner in `scripts/bash/oneliners/` accepts input via the `IN` environment variable or as the first argument, defaulting to a file in `scripts/inputs/`:
 
 ```bash
-# Run with default input
+# Run with default input (vanilla bash)
 bash scripts/bash/oneliners/wf.sh
 
+# Run with default input (PaSh parallelized)
+pash scripts/bash/oneliners/wf.sh
+
 # Run with custom input
-IN=/path/to/file bash scripts/bash/oneliners/spell.sh
+IN=/path/to/file pash scripts/bash/oneliners/spell.sh
 ```
+
+Available oneliners: `wf.sh`, `spell.sh`, `sort.sh`, `sort-sort.sh`, `bi-grams.sh`, `comm.sh`, `diff.sh`, `nfa-regex.sh`, `set-diff.sh`.
 
 To generate larger input files (10M, 100M, 1G) from the base 1M.txt:
 
