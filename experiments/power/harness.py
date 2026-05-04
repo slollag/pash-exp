@@ -131,8 +131,11 @@ def base_env(input_path: Path) -> dict:
         "PATH": f"{venv_bin}:{sys_path}",
         "IN": str(input_path),
         "HOME": os.environ.get("SUDO_HOME") or os.path.expanduser("~"),
-        "LANG": "C.UTF-8",
-        "LC_ALL": "C.UTF-8",
+        # dict.txt ships sorted under en_US.UTF-8 collation, so spell.sh's
+        # final `comm -23` step requires this locale to agree. Using C or
+        # C.UTF-8 makes comm reject the dictionary as out of order.
+        "LANG": "en_US.UTF-8",
+        "LC_ALL": "en_US.UTF-8",
         "TMPDIR": "/tmp",
     }
     pash_top = discover_pash_top()

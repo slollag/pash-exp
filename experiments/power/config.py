@@ -20,9 +20,9 @@ ALL_RUNTIMES = ["bash", "pash_cold", "pash_warm"]
 
 # Maps a logical size label to the input filename in scripts/inputs/.
 SIZES = {
+    "1M": "1M.txt",
     "10M": "10M.txt",
     "100M": "100M.txt",
-    "1G": "1G.txt",
 }
 
 DEFAULT_EPOCHS = 5
