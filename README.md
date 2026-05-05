@@ -1,1 +1,1 @@
-pash saves compiled script: /tmp/optimized_script.sh
+# Hardware experiments on PaSh
